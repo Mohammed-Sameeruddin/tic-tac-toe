@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left,blue,red) ;
+}
+hr{
+    background-color:greenyellow;
+}
+.container{
+    text-align:center;
+    width:100%;
+}
+#head{
+    margin-top:20px;
+    color:white;
+}
+#turn {
+    color:white;
+}
+.container input{
+    width:150px;
+    height:150px;
+    background-color: whitesmoke;
+    color:black;
+    font-size: 60px;
+    font-weight:lighter;
+    border-radius: 10px;
+    border:5px solid black;
+}
+#result{
+    color:white;
+}
+
+@media screen and (max-width:425px){
+    .container input{
+        width:120px;
+        height:120px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .container input{
+        width:100px;
+        height:100px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .container input{
+        width:90px;
+        height: 90px;
+    }
+}
